@@ -1,9 +1,10 @@
 import { createRoot } from 'react-dom/client'
 
-import './styles/index.css';
-import './styles/reset.css';
-import './styles/normalize.css';
-import './styles/variables.css';
+//  import './styles/index.css';
+//  import './styles/reset.css';
+//  import './styles/normalize.css';
+//  import './styles/variables.css';
+import './main.css'
 
 
 import App from './App.tsx'
