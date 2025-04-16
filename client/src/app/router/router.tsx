@@ -2,7 +2,6 @@ import { createBrowserRouter } from 'react-router-dom';
 import Layout from '../Layout/Layout';
 import TaskPage from '../../pages/TaskPage/TaskPage';
 import RouterErrorFallback from './RouterErrorFallback';
-import BlockSearch from '../../pages/BlockSearch/BlockSearch';
 import GlavList from '../../pages/GlavList/GlavList';
 
 export const router = createBrowserRouter([
