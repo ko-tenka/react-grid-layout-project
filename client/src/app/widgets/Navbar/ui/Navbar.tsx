@@ -24,7 +24,7 @@ export default function Navbar(): JSX.Element {
       <div className="relative inline-block text-left">
         {/* Кнопка с иконкой или текстом */}
         <button onClick={() => setIsOpen(!isOpen)} className="inline-flex justify-center items-center gap-1 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full shadow-sm hover:bg-gray-50 focus:outline-none">
-          <img src="../../../../../public/flagEg.png" alt="Флаг" className="w-5 h-5 rounded-full" />
+          <img src="/flagEg.png" alt="Флаг" className="w-5 h-5 rounded-full" />
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
@@ -37,31 +37,31 @@ export default function Navbar(): JSX.Element {
           <ul className="py-1 text-sm text-gray-700">
             <li>
               <button className="w-full px-4 py-2 bg-blue-200 text-left flex items-center gap-2 text-black rounded-md">
-                <img src="../../../../../public/flagEg.png" alt="Флаг Англии" className="w-5 h-5 rounded-full" />
+                <img src="/flagEg.png" alt="Флаг Англии" className="w-5 h-5 rounded-full" />
                 Englesh
               </button>
             </li>
             <li>
               <button className="w-full px-4 py-2 hover:bg-gray-100 text-left flex items-center gap-2 text-black rounded-md">
-                <img src="../../../../../public/flagDe.png" alt="Флаг Германии" className="w-5 h-5 rounded-full" />
+                <img src="/flagDe.png" alt="Флаг Германии" className="w-5 h-5 rounded-full" />
                 German
               </button>
             </li>
             <li>
               <button className="w-full px-4 py-2 hover:bg-gray-100 text-left flex items-center gap-2 text-black rounded-md">
-                <img src="../../../../../public/flagIta.png" alt="Флаг Италии" className="w-5 h-5 rounded-full" />
+                <img src="/flagIta.png" alt="Флаг Италии" className="w-5 h-5 rounded-full" />
                 Italian
               </button>
             </li>
             <li>
               <button className="w-full px-4 py-2 hover:bg-gray-100 text-left flex items-center gap-2 text-black rounded-md">
-                <img src="../../../../../public/flagFr.png" alt="Флаг Франции" className="w-5 h-5 rounded-full" />
+                <img src="/flagFr.png" alt="Флаг Франции" className="w-5 h-5 rounded-full" />
                 French
               </button>
             </li>
             <li>
               <button className="w-full px-4 py-2 hover:bg-gray-100 text-left flex items-center gap-2 text-black rounded-md">
-                <img src="../../../../../public/flagRu.svg" alt="Флаг России" className="w-5 h-5 rounded-full" />
+                <img src="/flagRu.svg" alt="Флаг России" className="w-5 h-5 rounded-full" />
                 Russian
               </button>
             </li>
