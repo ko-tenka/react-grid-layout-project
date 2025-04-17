@@ -1,3 +1,4 @@
+import { JSX } from 'react';
 export default function RouterErrorFallback(): JSX.Element {
   return (
     <div>

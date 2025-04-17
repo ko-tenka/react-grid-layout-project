@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { JSX } from 'react';
 
 export default function Navbar(): JSX.Element {
   const [isOpen, setIsOpen] = useState(false);

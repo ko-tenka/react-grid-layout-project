@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Responsive, WidthProvider } from 'react-grid-layout';
+import { Responsive, WidthProvider, Layouts } from 'react-grid-layout';
 import 'react-grid-layout/css/styles.css';
 import 'react-resizable/css/styles.css';
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-const defaultLayouts = {
+const defaultLayouts: Layouts = {
   lg: [
     { i: 'a', x: 0, y: 0, w: 2, h: 2 },
     { i: 'b', x: 2, y: 0, w: 3, h: 2 },
@@ -14,7 +14,7 @@ const defaultLayouts = {
 };
 
 export default function TaskPage() {
-  const [layouts, setLayouts] = useState(defaultLayouts);
+  const [layouts, setLayouts] = useState<Layouts>(defaultLayouts);
 
   return (
     <div style={{ width: '100%', height: '100vh' }}>
@@ -37,3 +37,4 @@ export default function TaskPage() {
     </div>
   );
 }
+
